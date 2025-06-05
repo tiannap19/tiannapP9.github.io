@@ -1,0 +1,222 @@
+/* Tianna Perez */
+/* please make sure you change the name of this file to styles.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid white;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(bluebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.07;
+    z-index: -1;
+}
+
+img {
+    overflow: clip;
+}
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #c9def4;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #3245d3;
+    text-decoration: none;
+    transition: color 0.8s
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+section {
+    padding: 30px 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-left: 4px solid #4682b4;
+    padding-left: 10px;
+    font-size: 1.8rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b3d4f;
+    color: white;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Image with Transparency */
+/* need position: fixed; and top: 0; left: 0; */
+body:before {
+    content: "";
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(bluebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.65;
+    z-index: -1;
+}
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #e77ef7;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 3rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    background: #e77ef7;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
